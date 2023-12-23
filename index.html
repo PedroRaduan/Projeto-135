@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <title>Verificador de Objetos</title>
+</head>
+<body>
+    <div class="main">
+        <center>
+        <p class="Titulo">Verificador de Objetos</p>
+        <br>
+        <p class="subtitulo">Clique no Botão para iniciar</p>
+        <br><br>
+        <div class="sim">
+        <p class="subtitulo-a" id="ml5">Status: Não identificando</p>
+        <p class="subtitulo-a" id="camera">Status: Não identificando</p>
+        </div>
+        <div id="canvas"></div>
+        <button class="btn" onclick="iniciar()">Iniciar</button>
+    </center>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
